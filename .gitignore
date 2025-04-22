@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+db.sqlite3
+
+# Environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# Django specific
+/staticfiles/
+media/
+*.pot
+*.pyc
+*.mo
+*.log
+local_settings.py
+
+# Migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+.env.*
+
+# pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+.cache
+
+# mypy
+.mypy_cache/
+
+# Pipenv
+Pipfile.lock
+
+# celery
+celerybeat-schedule
